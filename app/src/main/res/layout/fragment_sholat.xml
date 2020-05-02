@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.fragment.SholatFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backgroundmasjid"
+            android:alpha="0.75"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_jadwal_sholat"
+                android:layout_width="260dp"
+                android:layout_height="55dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text="Jadwal Sholat" />
+
+            <Button
+                android:id="@+id/btn_arah_kiblat"
+                android:layout_width="260dp"
+                android:layout_height="55dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:text="Arah Kiblat" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
