@@ -9,7 +9,7 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.kelompok4.jadwalsholatfix.R;
-import com.kelompok4.jadwalsholatfix.view.fragment.KeluhanFragment;
+import com.kelompok4.jadwalsholatfix.view.fragment.KhutbahFragment;
 import com.kelompok4.jadwalsholatfix.view.fragment.SholatFragment;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 selectedFragment = new SholatFragment();
                 loadFragment(selectedFragment);
                 break;
-            case R.id.menu_bottomnav_keluhan:
-                selectedFragment = new KeluhanFragment();
+            case R.id.menu_bottomnav_khutbah:
+                selectedFragment = new KhutbahFragment();
                 loadFragment(selectedFragment);
                 break;
         }

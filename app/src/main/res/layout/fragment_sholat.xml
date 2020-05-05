@@ -31,13 +31,6 @@
                 android:textSize="15sp"
                 android:text="Jadwal Sholat" />
 
-            <Button
-                android:id="@+id/btn_arah_kiblat"
-                android:layout_width="260dp"
-                android:layout_height="55dp"
-                android:textColor="@android:color/black"
-                android:textSize="15sp"
-                android:text="Arah Kiblat" />
         </LinearLayout>
     </FrameLayout>
 </LinearLayout>

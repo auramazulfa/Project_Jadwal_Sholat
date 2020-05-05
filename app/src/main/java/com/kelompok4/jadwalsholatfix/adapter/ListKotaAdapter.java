@@ -11,14 +11,11 @@ import android.widget.Filterable;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.OnBackPressedCallback;
-import androidx.activity.OnBackPressedDispatcher;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.kelompok4.jadwalsholatfix.R;
 import com.kelompok4.jadwalsholatfix.model.sholat.listkota.KotaItem;
-import com.kelompok4.jadwalsholatfix.view.activity.ListKotaActivity;
 import com.kelompok4.jadwalsholatfix.view.activity.SholatActivity;
 
 import java.util.ArrayList;
@@ -43,7 +40,7 @@ public class ListKotaAdapter extends RecyclerView.Adapter<ListKotaAdapter.ViewHo
     @NonNull
     @Override
     public ListKotaAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list_kota, parent, false);
         return new ViewHolder(view);
     }
 

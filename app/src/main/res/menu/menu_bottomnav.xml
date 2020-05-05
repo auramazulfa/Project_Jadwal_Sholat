@@ -8,8 +8,8 @@
         app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/menu_bottomnav_keluhan"
-        android:title="Keluhan User"
-        android:icon="@drawable/keluhan"
+        android:id="@+id/menu_bottomnav_khutbah"
+        android:title="Catatan Khutbah"
+        android:icon="@drawable/khutbah_fragment"
         app:showAsAction="ifRoom"/>
 </menu>

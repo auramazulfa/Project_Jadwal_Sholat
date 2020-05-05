@@ -11,8 +11,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.activity.ListKotaActivity"></activity>
-        <activity android:name=".view.activity.SholatActivity" />
         <activity
             android:name=".view.activity.SplashActivity"
             android:theme="@style/SplashScreen">
@@ -23,6 +21,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.activity.MainActivity" />
+        <activity android:name=".view.activity.ListKotaActivity" />
+        <activity android:name=".view.activity.SholatActivity" />
+        <activity android:name=".view.activity.LihatDataKhutbahActivity" />
+        <activity android:name=".view.activity.EditKhutbahActivity"/>
     </application>
 
 </manifest>
